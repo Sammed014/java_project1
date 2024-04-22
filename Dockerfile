@@ -1,3 +1,3 @@
 FROM tomcat:latest
-COPY target/*.war /opt/apache-tomcat-9.0.82/webapps/
+COPY target/*.war /opt/tomcat/webapps/
 CMD ["catalina.sh", "run"]
